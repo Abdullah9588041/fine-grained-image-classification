@@ -1,0 +1,12 @@
+# Pinned 2026-10-06, Python 3.12. CPU-only torch build (CUDA optional: replace the
+# first two lines with the CUDA wheels from https://download.pytorch.org/whl/cu126).
+--index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu
+torchvision==0.29.1+cpu
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pillow==12.3.0
+numpy==2.5.2
+pandas==3.0.6
+pytest==9.1.1

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Data (large, downloadable via data/download.py)
+data/raw/
+
+# Checkpoints & logs
+checkpoints/
+*.pt
+
+# Results are committed (figures + metrics.json are small; README references them)
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
